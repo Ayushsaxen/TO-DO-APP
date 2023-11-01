@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color:rgb(167, 245, 255);
+  height: 100%;
+  width: 100%;
+}
+.navbar{
+  background-color: rgb(6, 212, 223) !important;
+  border: 1px solid black !important;
+  margin: 1%;
+}
+.footer{
+  background-color: rgb(6,212,223);
+  border: 1px solid black;
+  margin: 1%;
+  position: fixed !important;
+  bottom: 0;
+  width: 98vw;
+  font-size: 1.4rem;
+}
+@media screen and (max-width: 600px) {
+  .footer {
+    font-size: 0.8rem !important;
+  }
+}
